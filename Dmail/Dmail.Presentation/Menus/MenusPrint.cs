@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dmail.Presentation.Menus
+{
+    public static class MenusPrint
+    {
+        public static void EntryMenuPrint()
+        {
+            Console.WriteLine("1. Prijava\n2. Registracija\n3. Izlaz");
+        }
+        public static void MainMenuPrint() 
+        {
+            Console.WriteLine("1. Ulazna posta\n" + 
+                "2. Izlazna posta\n" + 
+                "3. Spam\n" + 
+                "4. Posalji novi mail\n" + 
+                "5. Posalji novi dogadaj\n" +
+                "6. Postavke profila\n" +
+                "7. Odjava\n");
+        }
+    }
+}

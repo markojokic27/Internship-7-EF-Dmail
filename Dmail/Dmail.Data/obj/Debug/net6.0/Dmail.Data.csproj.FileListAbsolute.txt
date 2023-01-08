@@ -1,0 +1,14 @@
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\bin\Debug\net6.0\Dmail.Data.deps.json
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\bin\Debug\net6.0\Dmail.Data.runtimeconfig.json
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\bin\Debug\net6.0\Dmail.Data.dll
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\bin\Debug\net6.0\Dmail.Data.pdb
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.dll
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\refint\Dmail.Data.dll
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.pdb
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\Dmail.Data.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\Dmail\Dmail.Data\obj\Debug\net6.0\ref\Dmail.Data.dll
