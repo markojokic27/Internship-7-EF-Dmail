@@ -1,4 +1,7 @@
-﻿using Dmail.Presentation.Actions;
+﻿using Dmail.Domain.Repositories;
+using Dmail.Dormain.Factories;
+using Dmail.Dormain.Repositories;
+using Dmail.Presentation.Actions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +19,8 @@ namespace Dmail.Presentation.Menus
             switch(input)
             {
                 case 1:
-                    IncomingMail.Create();
+                    var a = new IncomingMail(RepositoryFactory.Create<MailRepository>());
+                    a.Create();
                     break;
                 case 2:
                     SentMail.Create();

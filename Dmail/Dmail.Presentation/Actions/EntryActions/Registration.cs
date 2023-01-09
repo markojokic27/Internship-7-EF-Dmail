@@ -103,6 +103,7 @@ namespace Dmail.Presentation.Actions
             if (!_userRepository.AddressExists(address))
                 return "adresa";
             var user = new User(address,password);
+            Helpers.NewCurrentUser(address);
             _userRepository.AddUser(user);
             return "registriran";
         }

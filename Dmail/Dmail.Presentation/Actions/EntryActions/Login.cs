@@ -31,6 +31,7 @@ namespace Dmail.Presentation.Actions
             //NEKAKO ZAPAMTIT KORISNIKA
             if (_userRepository.SingIn(address,password)==ResponseResultType.Success)
             {
+                Helpers.NewCurrentUser(address);
                 Console.WriteLine("Uspjesna prijava.");
                 Helpers.PressAnyButton("za odlazak na glavni izbornik.");
                 MainMenu.Create();

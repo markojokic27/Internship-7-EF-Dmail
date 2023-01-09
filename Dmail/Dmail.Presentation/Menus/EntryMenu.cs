@@ -19,11 +19,12 @@ namespace Dmail.Presentation.Menus
             switch (input)
             {
                 case 1:
-                    new Login(RepositoryFactory.Create<UserRepository>());
-                    Login.Create();
+                    var login=new Login(RepositoryFactory.Create<UserRepository>());
+                    login.Create();
                     break;
                 case 2:
-                    new Registration(RepositoryFactory.Create<UserRepository>());
+                    var registration=new Registration(RepositoryFactory.Create<UserRepository>());
+                    registration.Create();
                     break;
                 default:
                     Environment.Exit(0);

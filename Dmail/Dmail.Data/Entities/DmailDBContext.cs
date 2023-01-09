@@ -1,4 +1,5 @@
 ﻿using Dmail.Data.Entities.Models;
+using Dmail.Data.Enums;
 using Dmail.Data.Seeds;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -30,13 +31,24 @@ namespace Dmail.Data.Entities
                 .HasForeignKey(u=>u.SenderId);
             modelBuilder.Entity<Spam>()
                 .HasKey(s => new { s.UserId, s.BlockedUserId });
-            //modelBuilder.Entity<Receiver>()
-            //    .HasOne(r => r.MailId)
-            //    .WithMany(m => m.Id);
+            modelBuilder.Entity<Spam>()
+                .HasOne(u => u.User)
+                .WithMany(u => u.Spams)
+                .HasForeignKey(s => s.UserId);
             modelBuilder.Entity<Receiver>()
                 .HasKey(r => new { r.MailId, r.UserId });
-
-
+            modelBuilder.Entity<Receiver>()
+                .HasOne(r => r.Mail)
+                .WithMany(r => r.Receivers)
+                .HasForeignKey(m => m.MailId);
+            modelBuilder.Entity<Receiver>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.Recieved)
+                .HasForeignKey(r => r.UserId);
+            modelBuilder.Entity<Receiver>()
+                .Property(r => r.EventResponse).HasDefaultValue(EventResponse.None);
+            modelBuilder.Entity<Receiver>()
+                .Property(r => r.MailStatus).HasDefaultValue(MailStatus.Unread);
 
 
 
