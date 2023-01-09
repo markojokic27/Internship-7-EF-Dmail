@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NiPefWRmFmw8XWuN/K16X+OP19LEXvPt+3KGEnEUTlT0hvivn7/yb/YvgCUFWBA4CFwXgpzL5jBU4CNx5yjXqQ==",
+  "dgSpecHash": "IO4E5tUM5S3+XQIk/BpRWkeL4cFDaHEKGzmrkImMOXpI1APehbphwNOBz+7VsxHsQt+hIV0PAMQksST9LP9lXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
+  "projectFilePath": "C:\\Users\\Korisnik\\Internship-7-EF-Dmail\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",

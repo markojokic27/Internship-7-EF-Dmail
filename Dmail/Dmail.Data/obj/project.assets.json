@@ -1583,11 +1583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\Internship-7-EF-Dmail\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
       "projectName": "Dmail.Data",
-      "projectPath": "C:\\Users\\Korisnik\\Desktop\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
+      "projectPath": "C:\\Users\\Korisnik\\Internship-7-EF-Dmail\\Dmail\\Dmail.Data\\Dmail.Data.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Desktop\\Dmail\\Dmail.Data\\obj\\",
+      "outputPath": "C:\\Users\\Korisnik\\Internship-7-EF-Dmail\\Dmail\\Dmail.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",

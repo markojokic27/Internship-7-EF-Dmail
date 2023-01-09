@@ -13,3 +13,11 @@ C:\Users\Korisnik\Desktop\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.dll
 C:\Users\Korisnik\Desktop\Dmail\Dmail.Dormain\obj\Debug\net6.0\refint\Dmail.Dormain.dll
 C:\Users\Korisnik\Desktop\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.pdb
 C:\Users\Korisnik\Desktop\Dmail\Dmail.Dormain\obj\Debug\net6.0\ref\Dmail.Dormain.dll
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.AssemblyInfo.cs
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.dll
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\refint\Dmail.Dormain.dll
+C:\Users\Korisnik\Internship-7-EF-Dmail\Dmail\Dmail.Dormain\obj\Debug\net6.0\Dmail.Dormain.pdb

@@ -10,11 +10,14 @@ namespace Dmail.Presentation.Menus
     {
         public static void EntryMenuPrint()
         {
+            Console.Clear();
             Console.WriteLine("1. Prijava\n2. Registracija\n3. Izlaz");
         }
         public static void MainMenuPrint() 
         {
-            Console.WriteLine("1. Ulazna posta\n" + 
+            Console.Clear();
+            Console.WriteLine("Glavni izbornik\n" +
+                "1. Ulazna posta\n" + 
                 "2. Izlazna posta\n" + 
                 "3. Spam\n" + 
                 "4. Posalji novi mail\n" + 

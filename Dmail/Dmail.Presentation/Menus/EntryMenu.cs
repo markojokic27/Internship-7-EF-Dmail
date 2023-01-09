@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Dmail.Presentation.Actions;
 using Dmail.Presentation.Menus;
 namespace Dmail.Presentation.Menus
 {
@@ -16,9 +17,10 @@ namespace Dmail.Presentation.Menus
             switch (input)
             {
                 case 1:
-
+                    Login.Create();
                     break;
                 case 2:
+                    Registration.Create();
                     break;
                 default:
                     break;

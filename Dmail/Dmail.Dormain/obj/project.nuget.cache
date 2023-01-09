@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yMELweubaV5yBhpG5JMUrUBEmPaCy4l1MLaJo6yopuAnURVPjZ5262vOKVLq9h2dn8bUnMiuRMvSwsPhAIXKRA==",
+  "dgSpecHash": "RTxZyEf5YqFh3Iz7J5n1whVv99+hAUK9/m3qKNS/bb4wbIZL7OO9Sy16qsE8dxD1WlS8sQFzoKdFKe4kel/Dww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\Dmail\\Dmail.Dormain\\Dmail.Dormain.csproj",
+  "projectFilePath": "C:\\Users\\Korisnik\\Internship-7-EF-Dmail\\Dmail\\Dmail.Dormain\\Dmail.Dormain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.12\\microsoft.entityframeworkcore.abstractions.6.0.12.nupkg.sha512",
