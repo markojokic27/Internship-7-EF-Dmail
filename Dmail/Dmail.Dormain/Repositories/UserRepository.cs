@@ -43,7 +43,10 @@ namespace Dmail.Dormain.Repositories
         {
             return DbContext.Users.ToList().Any(u => u.Email == address);
         }
-
+        public int GetIdByAdress(string address)
+        {
+            return DbContext.Users.ToList().FirstOrDefault(u => u.Email == address).Id;
+        }
 
     }
 }

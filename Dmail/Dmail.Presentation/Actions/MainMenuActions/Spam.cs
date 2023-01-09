@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Dmail.Presentation.Actions
 {
-    public static class Spam
+    public class Spam
     {
-        public static void Create()
+        public void Create()
         {
 
         }

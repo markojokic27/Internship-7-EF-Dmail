@@ -4,6 +4,7 @@ using Dmail.Data.Enums;
 using Dmail.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using System.Text.RegularExpressions;
 
 namespace Dmail.Domain.Repositories
 {
@@ -12,6 +13,7 @@ namespace Dmail.Domain.Repositories
         public MailRepository(DmailDBContext dbContext) : base(dbContext)
         {
         }
+        public ICollection<Mail> GetAll() => DbContext.Mails.ToList();
         public ResponseResultType Add(Mail mail)
         {
             //ovu provjeru napravi u presentation layeru!!!

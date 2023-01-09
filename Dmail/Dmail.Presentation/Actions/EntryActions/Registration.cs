@@ -100,7 +100,7 @@ namespace Dmail.Presentation.Actions
                 return "captchaFailed";
 
 
-            if (!_userRepository.AddressExists(address))
+            if (_userRepository.AddressExists(address))
                 return "adresa";
             var user = new User(address,password);
             Helpers.NewCurrentUser(address);

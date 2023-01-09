@@ -23,13 +23,14 @@ namespace Dmail.Presentation.Menus
                     a.Create();
                     break;
                 case 2:
-                    SentMail.Create();
+                    //SentMail.Create();
                     break;
                 case 3:
-                    Spam.Create();
+                    //Spam.Create();
                     break;
                 case 4:
-                    SendNewMail.Create();
+                    //var d= new SendNewMail(RepositoryFactory.Create<MailRepository>());
+                    //d.Create();
                     break;
                 case 5:
                     SendNewEvent.Create();
@@ -38,7 +39,7 @@ namespace Dmail.Presentation.Menus
                     Settings.Create();  
                     break;
                 case 7:
-                    LogOut.Create();
+                    EntryMenu.Create();
                     break;
                 default: 
                     break; 

@@ -119,7 +119,7 @@ namespace Dmail.Data.Seeds
                         SentAt = new DateTime(2022, 12, 1, 2, 0, 0, DateTimeKind.Utc),
                         Type = MailType.Event,
                         SenderId = 5,
-                        EventStart = new DateTime(2023, 15, 1, 12, 0, 0, DateTimeKind.Utc),
+                        EventStart = new DateTime(2023, 1, 13, 12, 0, 0, DateTimeKind.Utc),
                         EventDuration = TimeSpan.FromHours(3)
                     },
                     new Mail
@@ -129,7 +129,7 @@ namespace Dmail.Data.Seeds
                         SentAt = new DateTime(2022, 12, 1, 2, 0, 0, DateTimeKind.Utc),
                         Type = MailType.Event,
                         SenderId = 1,
-                        EventStart = new DateTime(2023, 15, 1, 12, 0, 0, DateTimeKind.Utc),
+                        EventStart = new DateTime(2023, 2, 1, 12, 0, 0, DateTimeKind.Utc),
                         EventDuration = TimeSpan.FromHours(2)
                     },
                     new Mail
@@ -149,7 +149,7 @@ namespace Dmail.Data.Seeds
                         SentAt = new DateTime(2023, 1, 5, 2, 0, 0, DateTimeKind.Utc),
                         Type = MailType.Event,
                         SenderId = 4,
-                        EventStart = new DateTime(2023, 18, 1, 17,0, 0, DateTimeKind.Utc),
+                        EventStart = new DateTime(2023, 1, 18, 17,0, 0, DateTimeKind.Utc),
                         EventDuration = TimeSpan.FromHours(4)
                     }
                 });
