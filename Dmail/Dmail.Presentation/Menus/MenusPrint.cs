@@ -25,5 +25,15 @@ namespace Dmail.Presentation.Menus
                 "6. Postavke profila\n" +
                 "7. Odjava\n");
         }
+        public static void IncomingMailMenuPrint()
+        {
+            Console.Clear();
+            Console.WriteLine("Ulazna posta\n" +
+                "1. Procitana posta\n" +
+                "2. Neprocitana posta\n" +
+                "3. Posta odredenog posiljatelja\n" +
+                "4. Povratak na glavni izbornik\n" 
+                );
+        }
     }
 }

@@ -8,16 +8,13 @@ using System.Data;
 namespace Dmail.Domain.Repositories
 {
     public class MailRepository : BaseRepository
-    {
-        public Mail? GetMail(int id) => DbContext.Mails.Find(id);
-        public ICollection<Mail> GetMessages() => DbContext.Mails.ToList();
-
+    {      
         public MailRepository(DmailDBContext dbContext) : base(dbContext)
         {
-
         }
         public ResponseResultType Add(Mail mail)
         {
+            //ovu provjeru napravi u presentation layeru!!!
             if (mail.Title.Length == 0)
                 return ResponseResultType.ValidationError;
             if (DbContext.Mails.Find(mail.Id) != null)
@@ -27,10 +24,10 @@ namespace Dmail.Domain.Repositories
 
         }
 
-        public ResponseResultType Delete(int message)
+        public ResponseResultType Delete(int mailId)
         {
-            var mailToDelete = DbContext.Mails.Find(message);
-            if (mailToDelete == null)
+            var mailToDelete = DbContext.Mails.Find(mailId);
+            if (mailToDelete is null)
                 return ResponseResultType.NotFound;
             DbContext.Mails.Remove(mailToDelete);
             return SaveChanges();
@@ -48,7 +45,7 @@ namespace Dmail.Domain.Repositories
                 SenderId = senderId,
                 SentAt = DateTime.Now.ToUniversalTime(),
             };
-            if (type!=0) 
+            if (type != 0) //neda koristenje 1?
             { 
                 mail.EventStart = eventStart;
                 mail.EventDuration = eventDuration;
@@ -56,13 +53,15 @@ namespace Dmail.Domain.Repositories
             var check =Add(mail);
             if (check!=ResponseResultType.Success)
             {
-                Console.WriteLine(check.ToString());
+                Console.WriteLine("Mail uspjesno poslan");
                 return -1;
             }
             return mail.Id;
 
         }
-        
+        public Mail? GetMail(int id) => DbContext.Mails.Find(id);
+        public ICollection<Mail> GetMails() => DbContext.Mails.ToList();
+
 
     }
 }
