@@ -35,5 +35,13 @@ namespace Dmail.Presentation.Menus
                 "4. Povratak na glavni izbornik\n" 
                 );
         }
+        public static void IncomingMailMenuPrint2()
+        {
+            Console.WriteLine("\nMoguce opcije:\n" +
+                "1. Detaljan pregleda pojedinog maila\n" +
+                "2. Dodatan filter svih mailova\n" +
+                "3. Povratak na prijasnji izbornik\n"
+                );
+        }
     }
 }

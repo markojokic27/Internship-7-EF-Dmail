@@ -10,6 +10,7 @@ namespace Dmail.Presentation.Actions
     {
         public void Create()
         {
+            Environment.Exit(0);
 
         }
     }

@@ -19,7 +19,7 @@ namespace Dmail.Presentation.Menus
             switch(input)
             {
                 case 1:
-                    var a = new IncomingMail(RepositoryFactory.Create<MailRepository>());
+                    var a = new IncomingMail(RepositoryFactory.Create<UserRepository>(),RepositoryFactory.Create<MailRepository>());
                     a.Create();
                     break;
                 case 2:
@@ -33,10 +33,10 @@ namespace Dmail.Presentation.Menus
                     //d.Create();
                     break;
                 case 5:
-                    SendNewEvent.Create();
+                    //SendNewEvent.Create();
                     break;
                 case 6:
-                    Settings.Create();  
+                    //Settings.Create();  
                     break;
                 case 7:
                     EntryMenu.Create();
